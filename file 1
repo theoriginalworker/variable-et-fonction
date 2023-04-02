@@ -24,3 +24,10 @@ print(True ^ True) # XOR
 #fonction f(x)
 f=lambda x,y: x**2+y
 print(f(3,2))
+
+#fonction
+def e_potentielle (masse, hauteur,g):
+    E = masse *hauteur *g 
+    return(E)
+k=e_potentielle(2,3,6.77)
+print(k)
